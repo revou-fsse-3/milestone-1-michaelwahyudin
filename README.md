@@ -17,5 +17,5 @@ _This is my pet_, visit my [Linkedin](https://www.linkedin.com/in/michael-wahyud
         1. css media querries up to 375px
         2. adaptive screen for both text and img 
 - [ ] Documentation
-- [ ] Deployment
+- [ ] Deployment - since i have bought domain from niagahoster before i'm linking this project into a subdomain via netlify
 - [ ] My Website is [Online](https://miphoto.netlify.app/)
