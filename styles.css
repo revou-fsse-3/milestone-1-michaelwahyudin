@@ -10,7 +10,7 @@ h1 {
     font-family: "CustomFont";
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-size: 28px;
+    font-size: 2rem;
     color: #ffffff;
     text-transform: uppercase;
     animation-name: example;
@@ -27,7 +27,7 @@ h1 {
   }
   
   h2 {
-    font-size: 1.5em; /* Adjust the font size */
+    font-size: 1.5rem; /* Adjust the font size */
     color: #333; /* Set the text color */
     text-align: center; /* Center the text */
     text-transform: uppercase; /* Convert text to uppercase */
@@ -58,10 +58,12 @@ h1 {
     background-color: #f5f5f5;
 }
 
-p {
+p ol {
     color: #555;
     line-height: 1.6;
+    font-size: 3rem;
 }
+
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
