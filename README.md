@@ -16,6 +16,9 @@ _This is my pet_, visit my [Linkedin](https://www.linkedin.com/in/michael-wahyud
 - [ ] Responsive Design
         1. css media querries up to 375px
         2. adaptive screen for both text and img 
+        3. resize and make some of the img showcase smaller to optimize page
 - [ ] Documentation
 - [ ] Deployment - since i have bought domain from niagahoster before i'm linking this project into a subdomain via netlify
+        <img title="deployment md1" alt="deployment 1" src="/asset/screenshot (114).jpg">
+        <img title="deployment md2" alt="deployment 2" src="/asset/screenshot (115).jpg">
 - [ ] My Website is [Online](https://miphoto.netlify.app/)
