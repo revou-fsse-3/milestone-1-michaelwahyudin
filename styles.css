@@ -227,6 +227,32 @@ body {
     box-sizing: border-box;
 }
 
+.contained-cell {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto; /* This will push .contained-cell to the right */
+}
+
+/* Style for night mode */
+.night-mode {
+  background-color: #000; /* Change this to your preferred background color */
+  color: #ffffff; /* Change text color in night mode */
+}
+
+.night-mode .contact {
+background-color: #000; /* Change this to your preferred background color */
+  color: #ffffff; /* Change text color in night mode */
+}
+
+.night-mode .box {
+  background-color: #000; /* Change this to your preferred background color */
+  color: #ffffff; /* Change text color in night mode */
+}
+
+.night-mode h2 { 
+  color: #ffffff; /* Change text color in night mode */
+}
 
 /* Hamburger menu styles */
 .hamburger-menu {
