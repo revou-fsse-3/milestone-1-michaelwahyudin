@@ -1,6 +1,6 @@
 # Hello i am Michael
 
-This is my [project](https://miphoto.netlify.app/) for my RevoU class
+This is my [Netlify](https://miphoto.netlify.app/) and [Website](https://photo.mypixiv.online/) for my RevoU class
 
 _This is my pet_, visit my [Linkedin](https://www.linkedin.com/in/michael-wahyudin-922396229/?trk=people_directory&originalSubdomain=id) account !
 
@@ -23,4 +23,4 @@ _This is my pet_, visit my [Linkedin](https://www.linkedin.com/in/michael-wahyud
 - [ ] Deployment - since i have bought domain from niagahoster before i'm linking this project into a subdomain via netlify
         <img title="deployment md1" alt="deployment 1" src="/asset/ss1.jpg">
         <img title="deployment md2" alt="deployment 2" src="/asset/ss2.jpg">
-- [ ] My Website is [Online](https://miphoto.netlify.app/)
+- [ ] My Website is [Online](https://photo.mypixiv.online/)
