@@ -18,4 +18,4 @@ _This is my pet_, visit my [Linkedin](https://www.linkedin.com/in/michael-wahyud
         2. adaptive screen for both text and img 
 - [ ] Documentation
 - [ ] Deployment
-- [ ] http://mypixiv.online/ is online
+- [ ] My Website is [Online](https://miphoto.netlify.app/)
