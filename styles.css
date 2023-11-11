@@ -228,10 +228,7 @@ body {
 }
 
 .contained-cell {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: auto; /* This will push .contained-cell to the right */
+  margin-top: 20px;
 }
 
 /* Style for night mode */
