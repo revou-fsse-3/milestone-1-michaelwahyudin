@@ -314,6 +314,10 @@ background-color: #000; /* Change this to your preferred background color */
   color: #ffffff; /* Change text color in night mode */
 }
 
+.night-mode button {
+  background-color: #ffffff; /* White background for the submit button in night mode */
+  color: #000; /* Change text color as needed */
+}
 /* Hamburger menu styles */
 .hamburger-menu {
   display: none;
