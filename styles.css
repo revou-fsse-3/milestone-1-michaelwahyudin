@@ -65,6 +65,23 @@ p ol {
     line-height: 1.6;
     font-size: 3rem;
 }
+
+.box p {
+  font-size: 1.1rem;
+  font-weight: bold;
+ 
+}
+
+.box ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.box li {
+  font-size: 1.2rem;
+  margin: 8px 0;
+}
+
 .boxmid {
   background-color: #fff;
   padding: 20px;
@@ -75,6 +92,9 @@ p ol {
   max-width: 400px;
   margin: 20px;
   transition: background-color 0.3s ease;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
 }
 
 .boxmid img {
