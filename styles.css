@@ -63,6 +63,32 @@ p ol {
     line-height: 1.6;
     font-size: 3rem;
 }
+.boxmid {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.boxmid img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.boxmid p {
+  margin: 0;
+}
+
+.boxmid:hover {
+  background-color: #f5f5f5;
+}
 
 body {
     margin: 0;
@@ -91,7 +117,7 @@ body {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1.3rem;
     transition: color 0.3s ease; 
   }
   
@@ -318,6 +344,12 @@ background-color: #000; /* Change this to your preferred background color */
   background-color: #ffffff; /* White background for the submit button in night mode */
   color: #000; /* Change text color as needed */
 }
+
+.night-mode .boxmid  {
+  background-color: #000; /* Change this to your preferred background color */
+  color: #ffffff; /* Change text color in night mode */
+}
+
 /* Hamburger menu styles */
 .hamburger-menu {
   display: none;
