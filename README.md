@@ -16,29 +16,16 @@ _This is my pet_, visit my [Linkedin](https://www.linkedin.com/in/michael-wahyud
         <p></p>
         
 - [ ] Create Semantic Html
-        1. use html tags
-        2. use headings
-        3. use p for textual content
-        4. use ol/ul
-        5. semantic 
-        6. use tag for img link etc 
-        7. push to github repo and link to netlify
+        <ol>use html tags</ol><ol>use headings</ol><ol>use p for textual content</ol><ol>use ol/ul</ol><ol>semantic </ol><ol>use tag for img link etc </ol><ol>push to github repo and link to netlify</ol>
     <img title="deployment md1" alt="deployment 1" src="/asset/ss4.jpg">    
     
 - [ ] Responsive Design
-        1. css media querries up to 375px
-        2. adaptive screen for both text and img 
-        3. resize and make some of the img showcase smaller to optimize page
+       <ol>css media querries up to 375px</ol><ol>adaptive screen for both text and img </ol><ol>resize and make some of the img showcase smaller to optimize page</ol>
          <img title="deployment md1" alt="deployment 1" src="/asset/ss6.jpg"> 
          <img title="deployment md1" alt="deployment 1" src="/asset/ss3.jpg">    
        
 - [ ] Deployment - since i have bought domain from niagahoster before i'm linking this project into a subdomain via netlify
-         1. on netlify add new site and choose deploy with github
-         2. choose my repo and click deploy
-         3. i have domain from niagahoster and i need to link it into netlify
-         4. Go to my Domain page and select Add or register domain.
-         5. add subdomain to my current domain for this project webpages.
-         6. the domain is already registered and linked 
+       <ol>  on netlify add new site and choose deploy with github</ol><ol>  choose my repo and click deploy</ol><ol>  i have domain from niagahoster and i need to link it into netlify</ol><ol>  Go to my Domain page and select Add or register domain.</ol><ol>  add subdomain to my current domain for this project webpages.</ol><ol>  the domain is already registered and linked </ol>
         <img title="deployment md1" alt="deployment 1" src="/asset/ss1.jpg">
         <img title="deployment md2" alt="deployment 2" src="/asset/ss2.jpg">
 - [ ] My Website is [Online](https://photo.mypixiv.online/)
