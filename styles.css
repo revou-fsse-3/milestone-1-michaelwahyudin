@@ -38,10 +38,12 @@ h1 {
 
   .box-container {
     display: flex;
-    justify-content: space-around; /* Adjust as needed */
-}
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
 
-.box {
+  .box {
     background-color: #fff;
     padding: 20px;
     border: 1px solid #ddd;
@@ -51,8 +53,8 @@ h1 {
     max-width: 400px;
     margin: 20px;
     transition: background-color 0.3s ease;
-    cursor: pointer;
-}
+    flex: 1; /* Make each box take equal width */
+  }
 
 .box:hover {
     background-color: #f5f5f5;
@@ -256,10 +258,12 @@ body {
 /* Rest of your existing CSS styles */
 
 /* Night Mode Switch Styles */
+
 .nightswitch {
   align-items: center;
   justify-content: space-between;
   margin-top: 20px;
+  text-align: center; /* Center text on small screens */
 }
 
 .nightswitch span {
@@ -350,6 +354,20 @@ background-color: #000; /* Change this to your preferred background color */
   color: #ffffff; /* Change text color in night mode */
 }
 
+@media screen and (min-width: 800px) {
+  .box-container {
+    flex-direction: row; /* Horizontal layout */
+  }
+
+  .box {
+    flex: 0 0 48%; /* Adjust the width of each box as needed */
+  }
+
+  .boxmid {
+    flex: 0 0 100%; /* Make the boxmid take full width */
+  }
+}
+
 /* Hamburger menu styles */
 .hamburger-menu {
   display: none;
@@ -365,6 +383,14 @@ background-color: #000; /* Change this to your preferred background color */
 }
 
 /* Show the button on smaller screens using media queries */
+
+@media screen and (max-width: 600px) {
+  .nightswitch {
+    justify-content: flex-end; 
+
+  }
+}
+
 @media screen and (max-width: 600px) {
   .hamburger-menu {
     display: block;
