@@ -422,7 +422,7 @@ background-color: #000; /* Change this to your preferred background color */
     background-color: #333;
     padding: 10px;
   }
-
+  
   .hamburger-content a {
     display: block;
     color: #fff;
@@ -431,7 +431,7 @@ background-color: #000; /* Change this to your preferred background color */
   }
 
   @media screen and (max-width: 600px) {
-    .hamburger-content {
+    .hamburger-content.show {
       display: block;
     }
   }}
