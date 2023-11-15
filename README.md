@@ -13,7 +13,9 @@ _This is my profile_, visit my [Linkedin](https://www.linkedin.com/in/michael-wa
         <p>16/11/23 fix some bug and added a few feature :
         <ol>add nightmode</ol><ol>add shortcut function when click topnav/burger menu will auto scroll to target page</ol></p>
         <img title="deployment md2" alt="deployment 2" src="/asset/ss5.jpg">
+        <p>I created this website after seeing plenty of similar company profile that are mobile friendly. Most of my work i found reference from w3school and stackoverflow.</p>
         <p></p>
+
         
 - [ ] Create Semantic Html
         <ol>use html tags</ol><ol>use headings</ol><ol>use p for textual content</ol><ol>use ol/ul</ol><ol>semantic </ol><ol>use tag for img link etc </ol><ol>push to github repo and link to netlify</ol>
