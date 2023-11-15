@@ -253,15 +253,15 @@ body {
     box-sizing: border-box;
   }
   
-  .column img {
+ .column img {
     width: 100%;
     border-radius: 8px;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .column:hover img {
+    transition: transform 0.3s ease-in-out; /* Apply the transition to each image */
+}
+
+.column img:hover {
     transform: scale(1.1);
-  }
+}
 
   label,
   input {
