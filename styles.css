@@ -412,14 +412,14 @@ background-color: #000; /* Change this to your preferred background color */
 
 /* Show the button on smaller screens using media queries */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .nightswitch {
     justify-content: flex-end; 
 
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .hamburger-menu {
     display: block;
     z-index: 2;
@@ -438,14 +438,14 @@ background-color: #000; /* Change this to your preferred background color */
     margin: 8px 0;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     .hamburger-content.show {
       display: block;
     }
   }}
 
   /* Media query to hide the links when the hamburger menu is visible */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     .nav-links a {
       display: none;
     }
@@ -457,7 +457,7 @@ background-color: #000; /* Change this to your preferred background color */
   }
 
   /* Responsive layout - makes a two column-layout instead of four columns */
-  @media (max-width: 800px) {
+  @media (max-width: 1200px) {
     .column {
       flex: 50%;
       max-width: 50%;
@@ -465,7 +465,7 @@ background-color: #000; /* Change this to your preferred background color */
   }
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
     .column {
       flex: 100%;
       max-width: 100%;
